@@ -10,7 +10,7 @@ Place the perl code and any extra needed libraries in an easily accessible place
 
 krb5.conf file
 ---------
-~/krb5.conf
+`~/krb5.conf`
 
 If your forward and reverse DNS for the server don't match (and they probably don't for your hosting provider), be sure to set rdns = false. Put in your kerberos server IPs, or you can use DNS if it is set up correctly... but I recommend starting with IPs to test because DNS can get squirrely. If your DNS is working properly, you could use hostnames rather than IPs for the KDCs.
 
